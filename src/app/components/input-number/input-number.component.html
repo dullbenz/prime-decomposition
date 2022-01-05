@@ -1,0 +1,5 @@
+<div>
+  <input [(ngModel)]="num" #ctrl="ngModel" type="number" min="1" step="1" name="number" id="number" placeholder="Enter a number to factorise">
+  <input type="text" name="" id="" style="display: none;">
+  <div style="text-align: end;"><button type="button" (click)="getFactors(num)">Factorize</button></div>
+</div>
